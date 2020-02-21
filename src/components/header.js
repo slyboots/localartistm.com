@@ -1,3 +1,13 @@
 import React from "react"
 
-export default props => <h1>{props.headerText}</h1>
+import Nav from "./nav"
+
+export default props => {
+  return (
+    <header>
+      <Nav />
+      <h1>Local Artist Raccoon</h1>
+      <h3>Also, a good raccoon</h3>
+    </header>
+  )
+}
